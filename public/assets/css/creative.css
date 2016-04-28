@@ -47,7 +47,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 21px;
     line-height: 1.5;
 }
 
@@ -64,6 +64,7 @@ p {
   text-align: center;
   color: whitesmoke;
   letter-spacing: 4px;
+  text-shadow: 4px 3px 1px black;
 
 }
 
@@ -197,13 +198,14 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
+    color: yellow;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 91px;
     letter-spacing: 12px;
-    text-shadow: 8px 8px 3px lime;
+    text-shadow: 8px 8px 3px magenta;
 }
 
 header .header-content .header-content-inner hr {
