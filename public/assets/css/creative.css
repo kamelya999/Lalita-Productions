@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'megrim','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'megrim','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -61,13 +61,14 @@ p {
 }
 
 .text-faded {
-text-align: right;
-color: black;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 4px;
 
 }
 
 section {
-    padding: 100px 0;
+    padding: 0 0;
 }
 
 aside {
@@ -80,7 +81,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'megrim','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -89,7 +90,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'megrim','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
 }
@@ -102,7 +103,7 @@ aside {
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     color: #222;
 }
@@ -154,7 +155,7 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
+        font-size: 21px;
         color: #f05f40;
     }
 
@@ -200,6 +201,9 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 91px;
+    letter-spacing: 12px;
+    text-shadow: 8px 8px 3px lime;
 }
 
 header .header-content .header-content-inner hr {
@@ -242,7 +246,9 @@ header .header-content .header-content-inner p {
 }
 
 .section-heading {
-    margin-top: 0;
+  margin-top: 11px;
+  letter-spacing: 6px;
+  text-shadow: 3px 3px 1px black;
 }
 
 .service-box {
@@ -486,16 +492,23 @@ margin-top: -10px;
 }
 
 #about {
-  background-image: url("../images/shanti-field.jpg");
+  background-image: url("../images/about-lalitaprod-img.jpg");
   background-size: cover;
   background-position: left center;
 
 }
 
-.upcoming img {
+.upcoming img{
   width: 100%;
-  height: auto;
+  overflow: hidden;
+  height: 400px;
   margin-bottom: 4%;
+  transition: .4s;
+}
+
+.upcoming img:hover {
+  transition: .4s;
+  transform: scale(1.2, 1.2);
 }
 
 .portfolio-box {
@@ -515,4 +528,16 @@ margin-top: -10px;
 
 .portfolio-box img:hover {
   transform: scale(1.2, 1.2);
+}
+
+#bands-header {
+background-image: url(../images/psych-op.gif);
+background-position: center center;
+padding: 71px;
+padding-top: 0;
+text-align: center;
+color: white;
+font-size: 138px;
+letter-spacing: 113px;
+text-shadow: 8px 8px 3px yellow;
 }
