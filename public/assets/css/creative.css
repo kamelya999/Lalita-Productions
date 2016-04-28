@@ -541,3 +541,19 @@ font-size: 138px;
 letter-spacing: 113px;
 text-shadow: 8px 8px 3px yellow;
 }
+
+.band-images {
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  transition: .4s;
+
+}
+
+.band-images:hover {
+  transform: scale(1.2, 1.2);
+}
+
+#bands {
+  padding-bottom: 40px;
+}
